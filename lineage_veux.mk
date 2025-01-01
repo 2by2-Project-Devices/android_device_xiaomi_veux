@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023-2024 The LineageOS Project
+# Copyright (C) 2023-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -28,7 +28,7 @@ PRODUCT_SYSTEM_NAME := veux_global
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="veux_global-user 13 TKQ1.221114.001 V14.0.6.0.TKCMIXM release-keys" \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+    BuildDesc="veux_global-user 13 TKQ1.221114.001 V14.0.6.0.TKCMIXM release-keys" \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := Redmi/veux_global/veux:13/TKQ1.221114.001/V14.0.6.0.TKCMIXM:user/release-keys
